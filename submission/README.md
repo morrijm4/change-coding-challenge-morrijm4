@@ -1,17 +1,16 @@
-
-##Project Description
+## Project Description
 
 This project is a game that prompts the user with a tweet from either Kanye West or Elon Musk. Then, the user will then guess who tweeted it and see if they got it right. Once the user is done playing the game then the program will let them know how accurate their guesses were.
 
-##Project Specifications
+## Project Specifications
 
 This program uses Python to request data from the Twitter API.
 
-##Prerequisites 
+## Prerequisites 
 
 In order for my code to run successfully you need to make sure you have the tweepy module on your computer. Provided below are steps on how you can download it on a macOS or Linux device
 
-##How to install the tweepy module
+## How to install the tweepy module
 
 There are multiple ways to do this but I have provided the one method that has worked for me.
 
@@ -44,9 +43,8 @@ Run this command in your terminal.
 python -m pip install tweepy
 
 
-#====================
+
 # How to run the game
-#====================
 
 From your command line go into the submission directory and run the following command
 
