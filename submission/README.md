@@ -22,25 +22,25 @@ In order to install the remote module you first need pip.
 
 Run the following command in macOS terminal. 
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
 2. Install the brew-pip package
 
 Run this command in your terminal.
 
-brew install brew-pip
+`brew install brew-pip`
 
 3. Add Homebrew's pip path to your PYTHONPATH environment variable (you probably should add this to some sort of shell initialization file like ~/.bashrc or ~/.zshrc)
 
 Run this command in the terminal.
 
-export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
+`export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages`
 
 3. Now install the requests module using pip
 
 Run this command in your terminal.
 
-python -m pip install tweepy
+`python -m pip install tweepy`
 
 
 
@@ -48,7 +48,7 @@ python -m pip install tweepy
 
 From your command line go into the submission directory and run the following command
 
-pyhton game.py
+`pyhton game.py`
 
 
 
